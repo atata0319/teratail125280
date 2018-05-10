@@ -1,0 +1,16 @@
+[version] 
+signature="$CHICAGO$"
+AdvancedINF=2.0  
+
+[Add.Code]
+PUAxControlTest1.ocx=PUAxControlTest1.ocx
+
+[Deployment]
+InstallScope=user
+
+[PUAxControlTest1.ocx]
+file-win32-x86=thiscab
+clsid={83F0E680-C802-4532-8098-5FBA4C900C8F}
+FileVersion=1,0,0,1
+RegisterServer=yes
+RedirectToHKCU=yes
